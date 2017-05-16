@@ -1,19 +1,10 @@
 
 var buttons = document.getElementsByClassName('button');
 
-var countOfButtons = buttons.lenght;
+var countOfButtons = buttons.length;
 console.log(countOfButtons);
 
 for ( var i = 0 ; i < countOfButtons ; i++ ) {
-    console.log(i);
-    console.log(buttons);
-    var myElement = document.getElementsByClassName('button');
-    var myText = (myElement.innerText);
-    console.log(myText);
+    var myElement = buttons[i];
+    console.log(myElement.innerText);
 }
-// console.log(buttons);
-
-
-
-console.log(buttons);
-console.log(myText);
